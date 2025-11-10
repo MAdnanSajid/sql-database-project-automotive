@@ -1,10 +1,10 @@
-## 🚗 Automotive Workshop Database Project README
+## Automotive Workshop Database Project (SQLite + Python)
 
 This project demonstrates the creation and population of a relational SQL database using **SQLite3** and **Python's Faker library**. The chosen topic is an **Automotive Workshop Management System**, designed to fulfill the requirements of a database generation assignment.
 
 ---
 
-### Key Focus Areas and Schema 🛠️
+### Key Focus Areas and Schema
 
 The database schema is structured to track core workshop operations:
 
@@ -31,6 +31,6 @@ The database schema is structured to track core workshop operations:
 
 ---
 
-### 🚀 Running the Project
+### Running the Project
 
 To generate the `automotive_workshop.db` file, you need Python and the required libraries.

@@ -15,7 +15,7 @@ The database schema is structured to track core workshop operations:
 | **`Mechanics`** | `mechanic_id` | - | 20 | Workshop staff information and hourly rates. |
 | **`PartsInventory`** | `part_id` | - | 9 | Stock, pricing, and supplier information for parts. |
 | **`Services`** | `service_id` | `vehicle_id`, `mechanic_id` | **1000** | Record of work performed, including date, type, and labor cost. |
-| **`ServiceParts`** | **Compound** (`service_id`, `part_id`) | `service_id`, `part_id` | 2000+ | Junction table detailing parts used for each service. |
+| **`ServiceParts`** | **Compound** (`service_id`, `part_id`) | `service_id`, `part_id` | 1900+ | Junction table detailing parts used for each service. |
 | **`Invoices`** | `invoice_id` | `service_id` | 1000 | Financial record, totaling service cost + parts cost. |
 
 ---
